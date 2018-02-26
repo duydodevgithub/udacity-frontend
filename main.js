@@ -1,20 +1,87 @@
-var shirtWidth = 26; // size L (large)
-var shirtLength = 33; // size L (large)
-var shirtSleeve = 9.63; // size L (large)
+// var shirtWidth = 26; // size L (large)
+// var shirtLength = 33; // size L (large)
+// var shirtSleeve = 9.63; // size L (large)
 
-if(18 <= shirtWidth && shirtWidth <  20 && shirtLength >= 28 && shirtLength < 29 && 8.13 <= shirtSleeve && shirtSleeve < 8.38) {
-    console.log("S");
-} else if(20 <= shirtWidth && shirtWidth <  22 && shirtLength >= 29 && shirtLength < 30 && 8.38 <= shirtSleeve && shirtSleeve < 8.63) {
-    console.log("M");
-} else if(22 <= shirtWidth && shirtWidth <  24 && shirtLength >= 30 && shirtLength < 31 && 8.63 <= shirtSleeve && shirtSleeve < 8.88) {
-    console.log("L");
-} else if(24 <= shirtWidth && shirtWidth <  26 && shirtLength >= 31 && shirtLength < 33 && 8.88 <= shirtSleeve && shirtSleeve < 9.63) {
-    console.log("XL");
-} else if(26 <= shirtWidth && shirtWidth <  28 && shirtLength >= 33 && shirtLength < 34 && 9.63 <= shirtSleeve && shirtSleeve < 10.13) {
-    console.log("2XL");
-} else if(28 <= shirtWidth && shirtLength <= 34 && shirtSleeve <= 10.13) {
-    console.log("3XL");
-}
- else {
-    console.log("N/A");
+// if(18 <= shirtWidth && shirtWidth <  20 && shirtLength >= 28 && shirtLength < 29 && 8.13 <= shirtSleeve && shirtSleeve < 8.38) {
+//     console.log("S");
+// } else if(20 <= shirtWidth && shirtWidth <  22 && shirtLength >= 29 && shirtLength < 30 && 8.38 <= shirtSleeve && shirtSleeve < 8.63) {
+//     console.log("M");
+// } else if(22 <= shirtWidth && shirtWidth <  24 && shirtLength >= 30 && shirtLength < 31 && 8.63 <= shirtSleeve && shirtSleeve < 8.88) {
+//     console.log("L");
+// } else if(24 <= shirtWidth && shirtWidth <  26 && shirtLength >= 31 && shirtLength < 33 && 8.88 <= shirtSleeve && shirtSleeve < 9.63) {
+//     console.log("XL");
+// } else if(26 <= shirtWidth && shirtWidth <  28 && shirtLength >= 33 && shirtLength < 34 && 9.63 <= shirtSleeve && shirtSleeve < 10.13) {
+//     console.log("2XL");
+// } else if(28 <= shirtWidth && shirtLength <= 34 && shirtSleeve <= 10.13) {
+//     console.log("3XL");
+// }
+//  else {
+//     console.log("N/A");
+// }
+
+/*
+ * Programming Quiz - Navigating the Food Chain (3-8)
+ *
+ * Use a series of ternary operator to set the category to one of the following:
+ *   - "herbivore" if an animal eats plants
+ *   - "carnivore" if an animal eats animals
+ *   - "omnivore" if an animal eats plants and animals
+ *   - undefined if an animal doesn't eat plants or animals
+ *
+ * Notes
+ *   - use the variables `eatsPlants` and `eatsAnimals` in your ternary expressions
+ *   - `if` statements aren't allowed ;-)
+ */
+
+/*
+ * Programming Quiz: Back to School (3-9)
+ */
+
+// change the value of `education` to test your code
+// var education = "no high school diploma";
+
+// // set the value of this based on a person's education
+// var salary;
+
+// // your code goes here
+// switch(education) {
+//     case "no high school diploma":
+//         salary = 25636;
+//         break;
+//     case "a high school diploma":
+//         salary = 35256;
+//         break;
+//     case "an Associate's degree":
+//         salary = 41496;
+//         break;
+//     case "a Bachelor's degree":
+//         salary = 59124;
+//         break;
+//     case "a Master's degree":
+//         salary = 69732;
+//         break;
+//     case "a Professional degree":
+//         salary = 89960;
+//         break;
+//     case "a Doctoral degree":
+//         salary = 84396;
+//         break;
+// }
+
+// console.log("In 2015, a person with " + education + " earned an average of $" + salary.toLocaleString("en-US") + "/year.");
+
+
+/*
+ * Programming Quiz: JuliaJames (4-1)
+ */
+
+var x = 1;
+
+while (x <= 20) {
+    // check divisibility
+    // print Julia, James, or JuliaJames
+    // increment x
+    if(x % 3 === 0) {
+        console.lo
+    }
 }
