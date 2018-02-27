@@ -82,6 +82,15 @@ while (x <= 20) {
     // print Julia, James, or JuliaJames
     // increment x
     if(x % 3 === 0) {
-        console.lo
+        if(x % 5 === 0) {
+            console.log("JuliaJames");
+        } else {
+            console.log("Julia");
+        }
+    } else if(x % 5 === 0) {
+        console.log("James");
+    } else {
+        console.log(x);
     }
+    x++;
 }
