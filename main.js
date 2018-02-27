@@ -71,26 +71,68 @@
 // console.log("In 2015, a person with " + education + " earned an average of $" + salary.toLocaleString("en-US") + "/year.");
 
 
-/*
- * Programming Quiz: JuliaJames (4-1)
- */
+// /*
+//  * Programming Quiz: JuliaJames (4-1)
+//  */
 
-var x = 1;
+// var x = 1;
 
-while (x <= 20) {
-    // check divisibility
-    // print Julia, James, or JuliaJames
-    // increment x
-    if(x % 3 === 0) {
-        if(x % 5 === 0) {
-            console.log("JuliaJames");
-        } else {
-            console.log("Julia");
-        }
-    } else if(x % 5 === 0) {
-        console.log("James");
-    } else {
-        console.log(x);
-    }
-    x++;
-}
+// while (x <= 20) {
+//     // check divisibility
+//     // print Julia, James, or JuliaJames
+//     // increment x
+//     if(x % 3 === 0) {
+//         if(x % 5 === 0) {
+//             console.log("JuliaJames");
+//         } else {
+//             console.log("Julia");
+//         }
+//     } else if(x % 5 === 0) {
+//         console.log("James");
+//     } else {
+//         console.log(x);
+//     }
+//     x++;
+// }
+
+// var num = 99;
+// while (num > 0) {
+//     if(num === 2) {
+//         console.log(num + " bottles of juice on the wall! " + num + " bottles of juice! Take one down, pass it around... " + (num - 1) + " bottle of juice on the wall!");        
+//     }
+//     else if(num === 1) {
+//         console.log(num + " bottle of juice on the wall! " + num + " bottle of juice! Take one down, pass it around... " + (num - 1) + " bottles of juice on the wall!");
+//     } else {
+//         console.log(num + " bottles of juice on the wall! " + num + " bottles of juice! Take one down, pass it around... " + (num -1) + " bottles of juice on the wall!");
+//     }
+//     num--;
+// }
+
+// var t = 60;
+// while(t >= 0) {
+//     if(t === 50){
+//         console.log("Orbiter transfers from ground to internal power");  
+//         t--;      
+//     } else if(t === 31) {
+//         console.log("Ground launch sequencer is go for auto sequence start");   
+//         t--;     
+//     } else if(t === 16) {
+//         console.log("Activate launch pad sound suppression system");   
+//         t--;     
+//     } else if( t === 10) {
+//         console.log("Activate main engine hydrogen burnoff system");
+//         t--;
+//     } else if(t === 6) {
+//         console.log("Main engine start");
+//         t--;
+//     } else if(t === 0) {
+//         console.log("Solid rocket booster ignition and liftoff!");        
+//         t--;
+//         break;
+//     }
+//     console.log("T-" + t + " seconds");
+//     t--;
+// }
+
+
+
