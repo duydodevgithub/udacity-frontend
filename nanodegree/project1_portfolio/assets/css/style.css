@@ -5,13 +5,15 @@ body {
 #container {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 10px;
+    
 }
 .box {
     width: 100%;
 }
 
 /* responsive for Nexus 5 */
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 150px) {
     header {
         border-bottom: 2px solid grey;
         height: 120px;
@@ -55,8 +57,9 @@ body {
 /* responsive for ipad */
 @media screen and (min-width: 768px) {
     .mywork {
-        border: 0px;
-        width: 33.333%;
+        width: 50%;
+        box-sizing:border-box;        
+        padding: 10px;
         display: inline-block;
         overflow: hidden;
     }
@@ -66,5 +69,10 @@ body {
     body {
         width: 960px;
         margin: auto;
+    }
+    .mywork {
+        width: 33.333%;
+        display: inline-block;
+        overflow: hidden;
     }
 }
