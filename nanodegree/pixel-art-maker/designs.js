@@ -4,8 +4,32 @@
 
 function makeGrid() {
     // Your code goes here!
-    let height = document.getElementById("inputHeight");
-    const sizePicker = document.getElementById("sizePicker");
-    sizePicker.addEventListener("click", test)
+    const height = document.getElementById("inputHeight").value;
+    const width = document.getElementById("inputWidth").value;
+
+    //create a table with height x width dimension
+    let tableCode="";
+    for(let i = 0; i < height; i++) {
+      tableCode+= "<tr>";
+      for(let j = 0; j < width; j++) {
+        tableCode += "<td onclick='changeColor(this)'></td>"
+      }
+      tableCode+= "</tr>"
+    }
+    let grid = document.getElementById("pixelCanvas");
+    grid.innerHTML = tableCode;
   }
-makeGrid();
+
+  //create an event listener for form
+  const sizePicker = document.getElementById("sizePicker");
+  sizePicker.addEventListener("submit", function(e) {
+    e.preventDefault();    
+    makeGrid();
+  })
+
+  //code for changing color
+  function changeColor(pixel) {
+    //get color code
+    const colorCode = document.getElementById("colorPicker").value;
+    pixel.style.backgroundColor ? ( pixel.style.backgroundColor = "") :(pixel.style.backgroundColor = colorCode)
+  }
