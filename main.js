@@ -200,4 +200,4 @@ for(var row = 0; row < numbers.length; row++){
         }
     }
 }
-console.log(numbers);
+// console.log(numbers);
